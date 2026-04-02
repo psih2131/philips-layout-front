@@ -1,0 +1,162 @@
+.landing-page-main{
+    padding-right: 80px;
+
+    .landing-page-main__preview{
+        width: 100%;
+        margin: 0;
+        height: 639px;
+    }
+}
+.landing-page-main__subtitle{
+    margin-top: 53px;
+    font-size: 25px;
+    color: #fff;
+    padding-right: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 42px;
+}
+.landing-page-section{
+    padding-bottom: 110px;
+}
+
+.principals {
+   padding-bottom: 120px;
+}
+
+.principals__title {
+    font-family: $mainFont;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+}
+
+.principals__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 210px;
+}
+
+.principals__name {
+    font-family: $mainFont;
+    font-size: 25px;
+    font-weight: 400;
+ 
+    color: $white;
+    margin-bottom: 24px;
+}
+
+.principals__text {
+    font-family: $mainFont;
+    font-size: 17px;
+    font-weight: 400;
+    color: $textMuted;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.principals__more {
+    font-family: $mainFont;
+    font-size: 13px;
+    color: $textMuted;
+    color: #fff;
+}
+
+.landing-page-section{
+    .about-page__sidebar{
+        border: none;
+        background: none;
+        padding: 0;
+        .post-documents{
+            margin-top: 10px;
+        }
+    }
+   
+}
+.landing-page-section__rec-posts{
+    padding: 40px 45px;
+    background: #585858;
+}
+
+@media only screen and (max-width: 1800px) {
+	.principals__grid{
+        gap: 150px;
+    }
+}
+
+@media only screen and (max-width: 1580px) {
+	.landing-page-main{
+        padding-right: 50px;
+    }
+    .landing-page-main .landing-page-main__preview{
+        height: 400px;
+    }
+    .landing-page-section__rec-posts{
+        padding: 30px;
+    }
+    .landing-page-section .about-page__sidebar .post-documents{
+        padding: 30px;
+    }
+    .principals__grid{
+        gap: 120px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+ 
+}
+
+@media only screen and (max-width: 1140px) {
+    .landing-page-section .about-page__sidebar .post-documents{
+        width: 100%;
+    }
+    .landing-page-main{
+        padding-right: 0;
+    } 
+    .landing-page-section{
+        padding-bottom: 80px;
+    } 
+    .principals{
+        padding-bottom: 80px;
+    } 
+    .principals__grid{
+        gap: 100px;
+    }
+    .landing-page-main__subtitle{
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+}
+
+@media only screen and (max-width: 760px) {
+	.principals__title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .landing-page-main__subtitle{
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .landing-page-main .landing-page-main__preview{
+        height: 240px;
+    }
+    .principals__grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .principals__text{
+        font-size: 14px;
+    }
+    .principals__name{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
