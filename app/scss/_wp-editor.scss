@@ -1,0 +1,47 @@
+.wp-editor {
+    p {
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 25px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.3;
+        margin-bottom: 20px;
+        font-family: $mainFont;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .wp-editor {
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 25px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+    }
+
+
+}
