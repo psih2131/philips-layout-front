@@ -1,0 +1,123 @@
+.principals-advocates{
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .container{
+        border-bottom: solid 3px #D3D3D3;
+        padding-bottom: 60px;
+    }
+
+    .principals__grid{
+        row-gap: 60px;
+    }
+}
+
+.advocates-staff{
+    padding-top: 78px;
+    padding-bottom: 120px;
+ 
+
+    .container{
+        border-bottom: solid 3px #D3D3D3;
+        padding-bottom: 60px;
+    }
+
+    .principals__grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 60px;
+        column-gap: 130px;
+        
+    }
+}
+.advocates-advocates{
+    padding-bottom: 120px;
+}
+.advocates-advocates__layout{
+    padding: 40px 45px;
+    background: #585858;
+}
+.advocates-advocates__title{
+    border-bottom: solid 3px #D3D3D3;
+    padding-bottom: 4px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: $mainFont;
+}
+.advocates-advocates__element{
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+
+}
+
+@media only screen and (max-width: 1580px) {
+
+}
+
+@media only screen and (max-width: 1360px) {
+	.advocates-staff .principals__grid{
+        column-gap: 60px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+	
+}
+
+@media only screen and (max-width: 920px) {
+    .advocates-staff .principals__grid{
+        display: block;
+        .principals__item{
+            margin-bottom: 60px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .principals-advocates .principals__grid{
+        display: block;
+        .principals__item{
+            margin-bottom: 60px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .advocates-staff{
+        padding-bottom: 80px;
+    }
+    .advocates-advocates__layout{
+        padding: 30px;
+    }
+  
+}
+
+@media only screen and (max-width: 760px) {
+    .principals-advocates .principals__grid .principals__item{
+        margin-bottom: 40px;
+    }
+    .advocates-advocates__title{
+        font-size: 20px;
+    }
+    .advocates-advocates__element{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .advocates-advocates{
+        padding-bottom: 60px;
+    }
+    .advocates-staff .principals__grid .principals__item{
+        margin-bottom: 40px;
+    }
+}
