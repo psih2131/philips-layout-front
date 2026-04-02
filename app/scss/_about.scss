@@ -40,6 +40,13 @@
     padding-right: 66px;
 }
 
+.about-page__main img {
+    width: 522px;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
 .about-page__sidebar {
     width: 480px;
     padding: 40px 45px;

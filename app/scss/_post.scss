@@ -1,0 +1,255 @@
+.news-page-intro {
+    padding-top: 138px;
+    padding-bottom: 90px;
+}
+
+.news-page-intro__teg {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 27px;
+    line-height: 1;
+}
+
+.news-page-intro__line {
+    width: 80px;
+    height: 3px;
+    background-color: #D3D3D3;
+    margin-bottom: 27px;
+}
+
+.news-page-intro__title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.post-page-section {
+    padding-bottom: 200px;
+}
+
+.post-main {
+    padding-right: 80px;
+}
+
+.post-main__subtitle {
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.post-main__text {
+    overflow: hidden;
+}
+
+.post-documents {
+    background: #585858;
+    padding: 40px 45px;
+    margin-top: 40px;
+}
+
+.post-documents__title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    font-family: $mainFont;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    border-bottom: solid 3px #D3D3D3;
+    margin-bottom: 30px;
+}
+
+.post-documents__group {
+    margin-bottom: 24px;
+}
+
+.post-documents__group:last-child {
+    margin-bottom: 0;
+}
+
+.post-documents__headline {
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 700;
+    color: $white;
+    margin-bottom: 12px;
+}
+
+.post-documents__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.post-documents__list li {
+    position: relative;
+    padding-left: 14px;
+}
+
+.post-documents__list li::before {
+    content: '·';
+    position: absolute;
+    left: 0;
+    color: $textMuted;
+}
+
+.post-documents__list a {
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    color: $textLight;
+    transition: color 0.2s;
+}
+
+.post-documents__list a:hover {
+    color: $white;
+}
+
+.post-main__float-img {
+    float: right;
+    width: 340px;
+    height: auto;
+    margin: 4px 0 28px 40px;
+    display: block;
+}
+
+.post-page-section {
+    .about-page__sidebar {
+        border: none;
+    }
+}
+
+.post-documents__headline {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.post-documents__list {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+
+    a {    font-size: 17px;
+        color: #fff;
+        transition: all ease 0.3s;
+
+        &:hover {
+            color: $accent;
+            transition: all ease 0.3s;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1800px) {
+    .news-page-intro__title{
+        font-size: 55px;
+    }
+    .post-main__subtitle{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1580px) {
+    .news-page-intro__title{
+        font-size: 50px;
+    }
+    .post-main{
+        padding-right: 50px;
+    }
+    .about-page__main img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+	
+}
+
+@media only screen and (max-width: 1140px) {
+	.post-main{
+        padding-right: 0;
+    }
+    .about-page__main img{
+        width: 500px;
+        height: 400px;
+    }
+    .post-page-section{
+        padding-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .post-main__subtitle{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .post-main__subtitle{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .news-page-intro__title{
+        font-size: 45px;
+    }
+    .news-page-intro{
+        padding-bottom: 60px;
+    }
+    .about-page__main img{
+        width: 400px;
+        height: 300px;
+    }
+    .post-documents{
+        padding: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+	.news-page-intro__teg{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .news-page-intro__line{
+        width: 50px;
+        margin-bottom: 20px;
+    }
+    .news-page-intro__title{
+        font-size: 35px;
+    }
+    .post-main__subtitle{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .about-page__main img{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        height: 240px;
+    }
+    .post-documents__title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .post-documents__headline{
+        font-size: 14px;
+    }
+    .post-documents__list a{
+        font-size: 14px;
+    }
+    .post-page-section .about-page__sidebar{
+        margin-top: 30px;
+    }
+    .post-page-section{
+        padding-bottom: 60px;
+    }
+}
