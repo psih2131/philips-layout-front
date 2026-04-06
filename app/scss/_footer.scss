@@ -3,6 +3,12 @@
 
     padding: 108px 0;
 
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
 }
 
 .footer__logo-title {
@@ -21,6 +27,10 @@
     font-weight: 500;
     color: #fff;
     display: block;
+}
+.footer__logo{
+    display: inline-block
+ 
 }
 
 @media only screen and (max-width: 1360px) {

@@ -135,7 +135,8 @@
     line-height: 27px;
     color: #fff;
 
-    a {    font-size: 17px;
+    a {
+        font-size: 17px;
         color: #fff;
         transition: all ease 0.3s;
 
@@ -146,12 +147,19 @@
     }
 }
 
+.post-main__text .post-main__float-img {
+    width: 522px;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+}
 
 @media only screen and (max-width: 1800px) {
-    .news-page-intro__title{
+    .news-page-intro__title {
         font-size: 55px;
     }
-    .post-main__subtitle{
+
+    .post-main__subtitle {
         font-size: 22px;
         line-height: 30px;
     }
@@ -159,97 +167,113 @@
 }
 
 @media only screen and (max-width: 1580px) {
-    .news-page-intro__title{
+    .news-page-intro__title {
         font-size: 50px;
     }
-    .post-main{
+
+    .post-main {
         padding-right: 50px;
     }
-    .about-page__main img{
+
+    .post-main__text .post-main__float-img {
         width: 400px;
         height: 300px;
     }
 }
 
-@media only screen and (max-width: 1360px) {
-	
-}
+@media only screen and (max-width: 1360px) {}
 
 @media only screen and (max-width: 1140px) {
-	.post-main{
+    .post-main {
         padding-right: 0;
     }
-    .about-page__main img{
+
+    .post-main__text .post-main__float-img {
         width: 500px;
         height: 400px;
     }
-    .post-page-section{
+
+    .post-page-section {
         padding-bottom: 120px;
     }
 }
 
 @media only screen and (max-width: 920px) {
-    .post-main__subtitle{
+    .post-main__subtitle {
         font-size: 22px;
         line-height: 30px;
     }
-    .post-main__subtitle{
+
+    .post-main__subtitle {
         margin-bottom: 50px;
         font-size: 20px;
     }
-    .news-page-intro__title{
+
+    .news-page-intro__title {
         font-size: 45px;
     }
-    .news-page-intro{
+
+    .news-page-intro {
         padding-bottom: 60px;
     }
-    .about-page__main img{
+
+    .post-main__text .post-main__float-img {
         width: 400px;
         height: 300px;
     }
-    .post-documents{
+
+    .post-documents {
         padding: 30px;
     }
 
 }
 
 @media only screen and (max-width: 760px) {
-	.news-page-intro__teg{
+    .news-page-intro__teg {
         font-size: 14px;
         margin-bottom: 20px;
     }
-    .news-page-intro__line{
+
+    .news-page-intro__line {
         width: 50px;
         margin-bottom: 20px;
     }
-    .news-page-intro__title{
+
+    .news-page-intro__title {
         font-size: 35px;
     }
-    .post-main__subtitle{
+
+    .post-main__subtitle {
         font-size: 16px;
         line-height: 25px;
         margin-bottom: 20px;
     }
-    .about-page__main img{
+
+    .post-main__text .post-main__float-img {
         width: 100%;
         margin: 0;
         margin-bottom: 20px;
         height: 240px;
     }
-    .post-documents__title{
+
+    .post-documents__title {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .post-documents__headline{
+
+    .post-documents__headline {
         font-size: 14px;
     }
-    .post-documents__list a{
+
+    .post-documents__list a {
         font-size: 14px;
     }
-    .post-page-section .about-page__sidebar{
+
+    .post-page-section .about-page__sidebar {
         margin-top: 30px;
     }
-    .post-page-section{
+
+    .post-page-section {
         padding-bottom: 60px;
     }
 }

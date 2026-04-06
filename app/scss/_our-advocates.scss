@@ -55,6 +55,27 @@
     &:last-child{
         margin-bottom: 0;
     }
+
+    a{
+        color:#fff ;
+
+        &:hover{
+            color: $accent;
+            transition: all ease 0.3s;
+        }
+        transition: all ease 0.3s;
+    }
+}
+.principals__name{
+    a{
+        text-decoration: underline;
+        color: #fff;
+        &:hover{
+            color: $accent;
+            transition: all ease 0.3s;
+        }
+        transition: all ease 0.3s;
+    }
 }
 
 @media only screen and (max-width: 1800px) {

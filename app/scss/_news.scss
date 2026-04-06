@@ -53,22 +53,41 @@
 	text-transform: uppercase;
 }
 
-.news-intro__featured-dots {
+.news-intro__featured-pagination {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
+	position: relative !important;
+	width: auto !important;
+	bottom: auto !important;
+	left: auto !important;
+	top: auto !important;
+}
 
-	span {
-		width: 10px;
-		height: 10px;
-		border-radius: 10px;
-		display: block;
-		background: #707070;
-		margin-left: 8px;
+.news-intro-featured-bullet {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 10px !important;
+	display: inline-block;
+	background: #707070 !important;
+	margin: 0 0 0 8px !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	cursor: pointer;
+}
 
-		&.active {
-			background: $accent;
-		}
-	}
+.news-intro-featured-bullet--active {
+	background: $accent !important;
+}
+
+.news-intro-featured-slider {
+	overflow: hidden;
+}
+
+.news-intro-featured-slider .swiper-slide {
+	height: auto;
 }
 
 .news-intro__featured-title {
@@ -134,13 +153,32 @@
 .news-filter__select {
 	width: 295px;
 	margin-right: 23px;
-	background: #fff;
-	padding: 12px 20px;
-	border: solid 1px #55768E;
+	padding: 12px 44px 12px 20px;
+	border: 1px solid #000;
+	border-radius: 0;
 	font-size: 16px;
 	font-weight: 500;
 	color: #000;
 	text-transform: uppercase;
+	cursor: pointer;
+	background-color: #fff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath fill='%23000' d='M0 0h10L5 7z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 18px center;
+	background-size: 10px 7px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.news-filter__select::-ms-expand {
+	display: none;
+}
+
+.news-filter__select:focus {
+	outline: none;
+	border-color: #000;
+	box-shadow: 0 0 0 1px #000;
 }
 
 
@@ -187,7 +225,7 @@
 	transition: all ease 0.3s;
 
 	&:hover {
-		background: #000;
+		background: $accent;
 		color: #fff;
 		transition: all ease 0.3s;
 	}
@@ -316,6 +354,10 @@
 
 	.news-filter__search-input {
 		width: 300px;
+	}
+	.news-intro{
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 }
 

@@ -17,6 +17,7 @@
 
 	<meta name="theme-color" content="#212121">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -108,15 +109,27 @@
 						<div class="news-intro__featured">
 							<div class="news-intro__featured-header">
 								<span class="news-intro__featured-label">Featured</span>
-								<div class="news-intro__featured-dots">
-									<span class="active"></span>
-									<span></span>
-                                    <span></span>
+								<div class="news-intro__featured-pagination js-news-featured-pagination"></div>
+							</div>
+							<div class="swiper news-intro-featured-slider js-news-featured-swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<h2 class="news-intro__featured-title">Phillps Black Releases Their &ldquo;Finley&rdquo; Report</h2>
+										<p class="news-intro__featured-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor mauris id quam luctus dignissim. Ut a velit bibendum metus elementum fringilla.</p>
+										<a href="#" class="news-intro__featured-link">Read the report</a>
+									</div>
+									<div class="swiper-slide">
+										<h2 class="news-intro__featured-title">Second Featured Article Headline Goes Here</h2>
+										<p class="news-intro__featured-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin erat ipsum, posuere vel scelerisque sed, pellentesque quis risus.</p>
+										<a href="#" class="news-intro__featured-link">Read more</a>
+									</div>
+									<div class="swiper-slide">
+										<h2 class="news-intro__featured-title">Third Featured Story: Updates from the Practice</h2>
+										<p class="news-intro__featured-text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer non turpis a eros vulputate tempor eget quis purus. Vestibulum ante est, fermentum quis dolor eget.</p>
+										<a href="#" class="news-intro__featured-link">Learn more</a>
+									</div>
 								</div>
 							</div>
-							<h2 class="news-intro__featured-title">Phillps Black Releases Their &ldquo;Finley&rdquo; Report</h2>
-							<p class="news-intro__featured-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor mauris id quam luctus dignissim. Ut a velit bibendum metus elementum fringilla.</p>
-							<a href="#" class="news-intro__featured-link">Read the report</a>
 						</div>
 
 					</div>
@@ -290,6 +303,7 @@
 		</footer>
 
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
 

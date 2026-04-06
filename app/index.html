@@ -17,6 +17,7 @@
 
 	<meta name="theme-color" content="#212121">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -46,6 +47,7 @@
 						<ul class="header__nav-list">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">About</a></li>
+							<li><a href="#">Our advocates</a></li>
 							<li><a href="#">Opportunities</a></li>
 							<li><a href="#">News</a></li>
 						
@@ -139,23 +141,51 @@
 						<!-- Main content -->
 						<div class="main-content">
 
-							<!-- Featured -->
+							<!-- Featured slider -->
 							<div class="featured">
-								<div class="featured__body">
-									<div class="featured__header">
-										<span class="featured__label">Featured</span>
-										<div class="featured__dots">
-											<span class="active"></span>
-											<span></span>
-											<span></span>
+								<div class="featured__header">
+									<span class="featured__label">Featured</span>
+									<div class="featured__pagination js-home-featured-pagination"></div>
+								</div>
+								<div class="swiper featured-slider js-home-featured-swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="featured__slide">
+												<div class="featured__body">
+													<h2 class="featured__title"><a href="">Phillps Black Releases Their<br>&ldquo;Finley&rdquo; Report</a></h2>
+													<p class="featured__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor mauris id quam luctus dignissim. Ut a velit bibendum metus elementum fringilla.</p>
+													<a href="#" class="featured__link">Read the report</a>
+												</div>
+												<div class="featured__image">
+													<img src="img/_src/post-img-1.jpg" alt="Finley Report">
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="featured__slide">
+												<div class="featured__body">
+													<h2 class="featured__title"><a href="">Second Featured Story Headline</a></h2>
+													<p class="featured__text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin erat ipsum, posuere vel scelerisque sed.</p>
+													<a href="#" class="featured__link">Read more</a>
+												</div>
+												<div class="featured__image">
+													<img src="img/@1x/preview.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="featured__slide">
+												<div class="featured__body">
+													<h2 class="featured__title"><a href="">Third Featured Update from the Practice</a></h2>
+													<p class="featured__text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer non turpis a eros vulputate tempor eget quis purus.</p>
+													<a href="#" class="featured__link">Learn more</a>
+												</div>
+												<div class="featured__image">
+													<img src="img/_src/post-img-1.jpg" alt="">
+												</div>
+											</div>
 										</div>
 									</div>
-									<h2 class="featured__title"><a href="">Phillps Black Releases Their<br>&ldquo;Finley&rdquo; Report</a></h2>
-									<p class="featured__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor mauris id quam luctus dignissim. Ut a velit bibendum metus elementum fringilla.</p>
-									<a href="#" class="featured__link">Read the report</a>
-								</div>
-								<div class="featured__image">
-									<img src="img/_src/post-img-1.jpg" alt="Finley Report">
 								</div>
 							</div>
 
@@ -186,14 +216,15 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">
-				<div class="footer__logo">
+				<a href="" class="footer__logo">
 					<span class="footer__logo-title"><strong>PHILLIPS</strong> Black</span>
 					<span class="footer__logo-sub">A nonprofit, public interest law practice</span>
-				</div>
+				</a>
 			</div>
 		</footer>
 
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
 

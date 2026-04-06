@@ -5,6 +5,7 @@
         width: 100%;
         margin: 0;
         height: 639px;
+        object-fit: cover;
     }
 }
 .landing-page-main__subtitle{
@@ -80,6 +81,7 @@
     padding: 40px 45px;
     background: #585858;
 }
+
 
 @media only screen and (max-width: 1800px) {
 	.principals__grid{

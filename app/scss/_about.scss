@@ -40,12 +40,7 @@
     padding-right: 66px;
 }
 
-.about-page__main img {
-    width: 522px;
-    height: 400px;
-    object-fit: cover;
-    max-width: 100%;
-}
+
 
 .about-page__sidebar {
     width: 480px;
@@ -79,6 +74,16 @@
     line-height: 27px;
     color: #fff;
     margin-bottom: 22px;
+
+    a{
+        transition: all ease 0.3s;
+        color: #fff;
+        &:hover{
+            color: $accent;
+            transition: all ease 0.3s;
+        }
+        
+    }
 }
 
 .about-sidebar-block__link {
@@ -111,7 +116,12 @@
     }
 }
 
-@media only screen and (max-width: 1580px) {}
+@media only screen and (max-width: 1580px) {
+    .page-intro{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
 
 @media only screen and (max-width: 1360px) {
     .page-intro {
@@ -255,6 +265,6 @@
     }
 
     .page-intro {
-        padding-bottom: 60px;
+        padding-bottom: 45px;
     }
 }
