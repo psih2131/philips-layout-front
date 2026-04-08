@@ -1,4 +1,4 @@
-.contribute-section__text{
+.contribute-section__text {
     font-size: 17px;
     color: #fff;
     line-height: 1.5;
@@ -6,13 +6,29 @@
     color: #fff;
     margin-bottom: 80px;
 }
-.contribute-section{
+
+.contribute-section {
     padding-bottom: 125px;
 }
 
-.contribute-section__form{
+.contribute-section__form {
     background: #585858;
     padding: 40px 45px;
     text-align: center;
 
+}
+
+.contribute-section__form {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background: none;
+}
+
+.contribute-section__form #IATS_PaymentBoxDiv {
+    width: 100% !important;
+}
+
+#IATS_PaymentBoxDiv {
+    width: 100% !important;
 }
